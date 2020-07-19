@@ -70,7 +70,7 @@ const SiteHeader = styled.header`
   display: flex;
   align-content: center;
   justify-content: flex-end;
-  padding: 0rem 10rem;
+  padding: 0px 10% 0px 0px;
 `
 
 const Header = ({ siteTitle }) => (
