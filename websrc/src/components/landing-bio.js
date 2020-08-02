@@ -32,6 +32,11 @@ const Description = styled.p`
       &:nth-of-type(3) { color: ${colours.purple500}; }
       &:nth-of-type(4) { color: ${colours.green500}; }
       &:nth-of-type(5) { color: ${colours.teal500}; }
+      &:nth-of-type(6) { color: ${colours.blue500}; }
+      &:nth-of-type(7) { color: ${colours.orange500}; }
+      &:nth-of-type(8) { color: ${colours.purple500}; }
+      &:nth-of-type(9) { color: ${colours.green500}; }
+      &:nth-of-type(10) { color: ${colours.teal500}; }
 
       &:hover {
         cursor: pointer;
@@ -41,6 +46,11 @@ const Description = styled.p`
         &:nth-of-type(3) { color: ${colours.purple600};  background-color: ${colours.purple200};}
         &:nth-of-type(4) { color: ${colours.green600};   background-color: ${colours.green200};}
         &:nth-of-type(5) { color: ${colours.teal600};    background-color: ${colours.teal200};}
+        &:nth-of-type(6) { color: ${colours.blue600};    background-color: ${colours.blue200};}
+        &:nth-of-type(7) { color: ${colours.orange600};  background-color: ${colours.orange200};}
+        &:nth-of-type(8) { color: ${colours.purple600};  background-color: ${colours.purple200};}
+        &:nth-of-type(9) { color: ${colours.green600};   background-color: ${colours.green200};}
+        &:nth-of-type(10) { color: ${colours.teal600};    background-color: ${colours.teal200};}
       }
   }
 
