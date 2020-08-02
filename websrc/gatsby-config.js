@@ -3,42 +3,13 @@ module.exports = {
     title: `Ryan Pennings`,
     subtitle: `Robotic Fabrication Expert`,
     description: `A minimal blog starter built with Gatsbyjs. The needed Gatsby files are included.`,
-    author: `@niklasmtj`,
+    author: `Ryan Pennings`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/src/content`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-emotion`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          `gatsby-remark-reading-time`,
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {
-              aliases: { sh: "bash", js: "javascript" },
-              showLineNumbers: true,
-            },
-          },
-        ],
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -57,8 +28,16 @@ module.exports = {
     {
       resolve: `gatsby-source-google-scholar`,
       options: {
-        queries: [`richard feynman`, `albert einstein`],
+        queries: [`ryan pennings`],
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content`,
+        name: `markdownContent`,
+      },
+    },
+    `gatsby-transformer-remark`,
   ],
 }
