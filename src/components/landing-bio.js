@@ -17,7 +17,7 @@ const OuterContainer = styled.div`
   height: 38vh;
 `
 
-const Description = styled.p`
+const Description = styled.div`
   padding: 0;
   margin-top: 2rem;
   margin-bottom: 1rem;
